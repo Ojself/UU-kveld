@@ -378,7 +378,6 @@ form {
   border-top-right-radius: 0px;
   color: #ffffff;
   font-size: 28px;
-  text-transform: ;
 }
 
 /* Labels */
@@ -409,28 +408,6 @@ form legend {
 }
 
 /* Form fields */
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form input[type="tel"],
-form input[type="number"],
-form input[type="search"],
-form select,
-form textarea {
-  border: 1px none #e4e1db;
-
-  padding: 10px;
-
-  font-family: Montserrat, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 0px;
-  color: #231f20;
-  font-size: 16px;
-}
 
 /* Form fields - placeholders */
 
@@ -860,7 +837,6 @@ tfoot td {
 }
 
 .header__menu-submenu .header__menu-link--active-link:not(.button) {
-  color: ;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -1357,4 +1333,17 @@ tfoot td {
 
 #hs_cos_wrapper_footer-module-2 .social-follow__link {
   margin-bottom: 44px;
+}
+
+.text-input {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 26px;
+  box-sizing: border-box;
+  width: 20rem;
+}
+
+.error {
+  border-color: red;
 }
